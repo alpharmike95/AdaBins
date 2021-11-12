@@ -114,6 +114,7 @@ def edges(d):
 
 
 class PointCloudHelper():
+    # creates an camera-intrisics-invariant coordinate 
     def __init__(self, width=640, height=480):
         self.xx, self.yy = self.worldCoords(width, height)
 
